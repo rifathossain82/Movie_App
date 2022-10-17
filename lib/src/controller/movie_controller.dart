@@ -37,6 +37,7 @@ class MovieController extends GetxController{
       }
     }catch(e){
       isLoading(false);
+      print(e);
       print('Error');
     }
   }

@@ -1,18 +1,18 @@
 class Movie {
   bool? adult;
   String? backdropPath;
-  List<int>? genreIds;
-  int? id;
+  List<num>? genreIds;
+  num? id;
   String? originalLanguage;
   String? originalTitle;
   String? overview;
-  double? popularity;
+  num? popularity;
   String? posterPath;
   String? releaseDate;
   String? title;
   bool? video;
   num? voteAverage;
-  int? voteCount;
+  num? voteCount;
 
   Movie(
       {this.adult,
